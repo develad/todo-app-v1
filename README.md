@@ -1,3 +1,7 @@
+![Preview image](https://raw.githubusercontent.com/develad/todo-app-v1/main/public/Untitled-1.png)
+
+# [Live Demo Site! <<<](https://develad.github.io/todo-app-v1/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
