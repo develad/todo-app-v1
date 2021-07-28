@@ -107,7 +107,7 @@ form input {
   border: 5px solid rgb(255, 255, 255);
   border-radius: 40px;
   background: rgb(255, 255, 255);
-  background: linear-gradient(rgba(0, 0, 0, 0.609), rgba(100, 2, 2, 0.644));
+  background: linear-gradient(rgba(0, 0, 180, 0.4), rgba(100, 2, 2, 0.644));
 }
 .card-checked {
   background: linear-gradient(rgba(0, 0, 0, 0.609), rgba(100, 2, 2, 0.644)),
