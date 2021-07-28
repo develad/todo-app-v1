@@ -12,9 +12,10 @@ function App() {
           border: '5px solid white',
           borderRadius: '15px',
           backgroundColor: 'black',
+          fontFamily: "'Righteous', cursive",
         }}
       >
-        To-do app
+        ToDo App
       </h1>
       <Home />
     </div>

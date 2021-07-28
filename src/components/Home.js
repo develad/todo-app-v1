@@ -84,12 +84,12 @@ function Home() {
       >
         {menuIsOpen ? (
           <i
-            class='fas fa-window-close'
+            className='fas fa-window-close'
             style={{ color: 'red', fontSize: '1.5rem' }}
           ></i>
         ) : (
           <i
-            class='fas fa-plus-square'
+            className='fas fa-plus-square'
             style={{ color: 'lime', fontSize: '1.5rem' }}
           ></i>
         )}
