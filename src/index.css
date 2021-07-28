@@ -147,12 +147,11 @@ form input {
   width: 90%;
   font-size: 2rem;
   padding-left: 5px;
-  font-family: 'Righteous', cursive, 'Varela Round', sans-serif;
+  font-family: 'Righteous', 'Varela Round', cursive, sans-serif;
 }
 
 .edit-show input::placeholder {
   text-align: center;
-  font-family: fantasy;
   font-family: 'Righteous', cursive, 'Varela Round', sans-serif;
 }
 .todo-container {
