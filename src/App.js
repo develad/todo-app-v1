@@ -1,4 +1,5 @@
 import Home from './components/Home';
+import Clock from './components/Clock';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       >
         ToDo App
       </h1>
+      <Clock />
       <Home />
     </div>
   );
