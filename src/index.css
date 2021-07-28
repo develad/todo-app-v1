@@ -12,7 +12,8 @@
 
 body {
   font-family: 'Balsamiq Sans', cursive;
-  background-color: rgb(4, 83, 57);
+  /* background-color: rgb(4, 83, 57); */
+  background: url('./app-wallpaper.jpg');
   color: rgb(255, 255, 255);
   overflow-x: hidden;
   display: flex;
@@ -21,6 +22,15 @@ body {
   min-height: 100vh;
 }
 
+label {
+  background-color: black;
+}
+
+.app-cont-new {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .todo-app {
   display: flex;
   flex-direction: column;
@@ -156,13 +166,12 @@ form input {
 }
 
 .todos {
-  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
   position: absolute;
-  top: 140px;
+  top: 150px;
   left: 0;
 }
 
