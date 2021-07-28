@@ -4,7 +4,7 @@ function App() {
   return (
     <>
       <h1
-        style={{ marginTop: '10px', fontSize: '3.5rem', textAlign: 'center' }}
+        style={{ marginTop: '50px', fontSize: '3.5rem', textAlign: 'center' }}
       >
         To-do app
       </h1>
