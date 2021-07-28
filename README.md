@@ -1,4 +1,4 @@
-![Preview image](https://raw.githubusercontent.com/develad/todo-app-v1/main/public/Untitled-1.png)
+![Preview image](https://raw.githubusercontent.com/develad/Portfolio/main/public/images/todoApp.png)
 
 # [Live Demo Site! <<<](https://develad.github.io/todo-app-v1/)
 
