@@ -31,6 +31,7 @@ function Home() {
     };
     setTodos(sortHandler(todos, todoItem));
     setTodo('');
+    setMenuIsOpen(false);
   };
 
   const deletetodo = (id) => {
@@ -113,14 +114,16 @@ function Home() {
             id='priority'
             onChange={(e) => setPriority(e.target.value)}
           >
-            <option value={0}>Low&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🟢</option>
-            <option value={1}>Medium&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🟡</option>
-            <option value={2}>High&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🔴</option>
+            <option value={0}>🟢&nbsp;&nbsp;Low</option>
+            <option value={1}>🟡&nbsp;&nbsp;Medium</option>
+            <option value={2}>🔴&nbsp;&nbsp;High</option>
           </select>
           <button type='submit'>Submit</button>
         </form>
         <div>
-          <div className={menuIsOpen ? 'todo-container' : 'todos'}>
+          <div
+            className={menuIsOpen ? 'todo-container edit-dont-show' : 'todos'}
+          >
             {todos.map((todo) => {
               return (
                 <TodoCard
