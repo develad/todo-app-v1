@@ -1,0 +1,10 @@
+position: fixed;
+bottom: 10px;
+right: 10px;
+z-index: 300;
+height: 60px;
+width: 60px;
+background: rgba(0,0,0,1);
+border: 5px solid white;
+outline: none;
+border-radius: 50%;

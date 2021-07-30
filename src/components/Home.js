@@ -67,21 +67,7 @@ function Home() {
 
   return (
     <>
-      <button
-        style={{
-          position: 'fixed',
-          bottom: '10px',
-          right: '10px',
-          zIndex: '300',
-          height: '60px',
-          width: '60px',
-          background: 'rgba(0,0,0,1)',
-          border: '5px solid white',
-          outline: 'none',
-          borderRadius: '50%',
-        }}
-        onClick={() => setMenuIsOpen(!menuIsOpen)}
-      >
+      <button className='add-btn' onClick={() => setMenuIsOpen(!menuIsOpen)}>
         {menuIsOpen ? (
           <i
             className='fas fa-window-close'
