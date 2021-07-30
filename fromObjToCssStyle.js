@@ -32,20 +32,26 @@ const changeString = (word) => {
 const intoCss = (arr) => {
   const brr = [];
   for (const item in arr) {
-    const cssStr = `${item}: ${arr[item]};`;
+    const cssStr = `${changeString(item)}: ${arr[item]};\n`;
     brr.push(cssStr);
   }
+  return brr.join('');
 
-  let myStr = '';
-  brr.map((item) => {
-    // let replacer = item.split(':')[0];
-    // if (replacer === 'zIndex') replacer = 'z-index';
-    // if (replacer === 'borderRadius') replacer = 'border-radius';
-    let replacer = changeString(item.split(':')[0]);
-    myStr += `${replacer}:${item.split(':')[1]}\n`;
-    return '😉';
-  });
-  return myStr;
+  // const brr = [];
+  // for (const item in arr) {
+  //   const cssStr = `${item}: ${arr[item]};\n`;
+  //   brr.push(cssStr);
+  // }
+  // let myStr = '';
+  // brr.map((item) => {
+  //   // let replacer = item.split(':')[0];
+  //   // if (replacer === 'zIndex') replacer = 'z-index';
+  //   // if (replacer === 'borderRadius') replacer = 'border-radius';
+  //   let replacer = changeString(item.split(':')[0]);
+  //   myStr += `${replacer}:${item.split(':')[1]}\n`;
+  //   return '😉';
+  // });
+  // return myStr;
 };
 
 console.log(intoCss(arrObj));
