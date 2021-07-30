@@ -85,7 +85,7 @@ function Home() {
           onSubmit={submitHandler}
           className={menuIsOpen ? 'form-cont' : 'form-cont-dont-show'}
         >
-          <label htmlFor='to-do'>Add Your To-do Here:</label>
+          <label htmlFor='to-do'>Add Your To-Do Here:</label>
           <input
             type='text'
             id='to-do'
@@ -94,7 +94,7 @@ function Home() {
             required
             onChange={(e) => setTodo(e.target.value)}
           />
-          <label htmlFor='priority'>Choose todo priority:</label>
+          <label htmlFor='priority'>Choose To-Do priority:</label>
           <select
             name='priority'
             id='priority'

@@ -23,8 +23,8 @@ body {
 }
 
 label {
-  background-color: black;
   width: 100%;
+  text-align: center;
 }
 
 .app-cont-new {
@@ -63,6 +63,7 @@ form input {
   border: 2px solid white;
   color: rgb(75, 75, 75);
   box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #65f4ee;
+  border-radius: 20px;
 }
 
 form button {
@@ -127,6 +128,8 @@ form input {
   transition: all 0.2s ease;
   z-index: 5;
   margin-top: 1rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
 }
 
 .form-cont-dont-show {
