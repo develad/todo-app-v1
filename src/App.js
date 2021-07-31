@@ -18,8 +18,8 @@ function App() {
       >
         ToDo App
       </h1>
-      <Clock />
       <Home />
+      <Clock />
     </div>
   );
 }

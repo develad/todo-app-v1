@@ -118,6 +118,10 @@ form input {
   transition: all 1s ease;
 }
 
+.card:last-child {
+  margin-bottom: 100px;
+}
+
 .edit-dont-show {
   display: none;
 }
